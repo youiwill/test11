@@ -7,6 +7,7 @@ public class C_Impl implements C_MaximusKorea {
 	public int update(String id, String pw) {
 		
 		return 0;
+		//git Test...
 	}
 	
 
