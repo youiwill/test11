@@ -24,7 +24,7 @@ public class MainTest {
 		boolean changed = false;
 		System.out.println("== 그냥 테스트 ==");
 		while( ! changed ) {
-			
+			System.out.print("=== 입\t력 ===");
 			int num = sc.nextInt();
 			
 			switch(num) {
@@ -38,7 +38,15 @@ public class MainTest {
 				
 				break;
 			case 4:		// youiwill
-				
+				int input = sc.nextInt();
+				switch(input) {
+				case 1:	// 등록
+					d.create(null, null);
+					break;
+				case 2:	// 삭제
+					
+					break;	
+				}
 				break;
 			case 5:		// 종료
 				System.exit(0); 
